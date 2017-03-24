@@ -19,7 +19,7 @@ class App extends EventEmitter {
     this.hx = hyperx(vdom.h)
     this.loop = mainLoop(this.state, this.render.bind(this), vdom)
 
-    this.tendermint = Tendermint('localhost:46657')
+    this.tendermint = Tendermint('163.172.170.63:46657')
   }
 
   get element () {
