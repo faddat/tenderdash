@@ -1,5 +1,3 @@
-'use strict'
-
 const EventEmitter = require('events')
 const old = require('old')
 const vdom = require('virtual-dom')
